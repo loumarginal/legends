@@ -11,55 +11,141 @@ import { Navbar } from "@/components/navbar"
 
 // DATOS DE LA NOVELA - Solo cambia esto para crear una nueva página
 const novelData = {
-  title: "Urenokori no Dorei Elf o Hirotta no de, Musume ni Suru Koto ni shita",
-  coverImage: "/elf2-ex.webp",
+  title: "Black Summoner",
+  coverImage: "/black1.webp",
   isCompleted: false,
-  synopsis: `¡Una conmovedora fantasía sobre un padre torpe y su inocente hija! Cuando Weiss, nuestro protagonista, se topa con una elfa que está siendo vendida como esclava, pronto se da cuenta de que no es una elfa común: es una rara Alta Elfa, una raza que se creía extinta. Movido por la compasión, Weiss decide comprarla y criarla como si fuera su propia hija.
+  synopsis: `Al despertar en un lugar nuevo y extraño sin ningún recuerdo de su vida pasada, Kelvin se entera de que ha intercambiado esos mismos recuerdos a cambio de nuevas y poderosas habilidades durante su reciente transmigración. 
+Dirigiéndose a un mundo completamente nuevo como un Invocador, Kelvin comienza su nueva vida como aventurero, y no pasa mucho tiempo antes de que descubra su carácter oculto como adicto a las batallas. 
 
-Sumido en el caos de la crianza por primera vez, Weiss hace todo lo posible, y su dedicación da sus frutos: la niña, antes frágil y muda, recupera su fuerza y ​​ánimo. Inspirado por la primera palabra que pronuncia, la llama Lily. Weiss se transforma rápidamente en un padre cariñoso, decidido a ayudar a Lily a alcanzar sus sueños, ¡incluyendo su ingreso a una academia de magia!
-
-Así comienza la conmovedora y tierna historia de un padre torpe y su hija de corazón puro mientras aprenden, crecen y se convierten en una verdadera familia.`,
+Desde el Caballero Negro del Antiguo Castillo de los Espíritus Malignos hasta el demonio dentro de la Cueva Oculta del Sabio, se deleita en la lucha contra un enemigo formidable tras otro.`,
 
   details: {
-    alternativeTitles: ["売れ残りの奴隷エルフを拾ったので、娘にすることにした"],
-    author: "Haruka Touko",
-    illustrator: "Matsuuni",
-    yearPublished: "2023",
-    publisher: "Kadokawa",
-    totalVolumes: 2,
-    translatedVolumes: 0,
-    genres: ["Fantasía", "Comedia", "Drama", "Monstruos", "Slice of Life"],
+    alternativeTitles: ["黒の召喚士, 黒の召喚士　～戦闘狂の成り上がり～", "Kuro no Shoukanshi: Sentoukyou no Nariagari, Kuro no Shoukanshi: The Berserker Rises to Greatness"],
+    author: "Doufu Mayoi",
+    illustrator: "Kurogin, DAI-XT",
+    yearPublished: "2016",
+    publisher: "OVERLAP",
+    totalVolumes: 22,
+    translatedVolumes: 13,
+    genres: ["Acción", "Aventura", "Fantasía"],
   },
 
   showAdWarning: false,
 
   supportLinks: {
-    patreon: "https://www.patreon.com/Gashadokai/membership",
-    paypal: "https://www.paypal.com/paypalme/kidsenpai",
+    patreon: "https://patreon.com/LegendsNoFansub",
+    paypal: "https://ko-fi.com/legendsnofansub",
   },
 
   volumes: [
     {
       number: 1,
-      coverImage: "/elf1.webp",
-      pdfLink: "https://www.mediafire.com/file/pvd7p5i8m7cvy1u/La_chica_gal_que_viene_a_mi_casa_todos_los_di%25CC%2581as_no_tiene_li%25CC%2581mites_pero_no_es_amable_1.pdf/file",
-      epubLink: "https://www.patreon.com/posts/mainichi-ie-ni-1-133924345",
-      available: false,
-      status: "coming-soon", // Add this line
+      coverImage: "/black1.webp",
+      pdfLink: "https://www.mediafire.com/file/wcat7pnoozulwl8/%255BJM-T%255D_Black_Summoner_Volumen_1.pdf/file",
+      epubLink: "#",
+      available: true,
+      status: "available", // Add this line
     },
     {
       number: 2,
-      coverImage: "/elf2-ex.webp",
-      pdfLink: "#",
+      coverImage: "/black2.webp",
+      pdfLink: "https://www.mediafire.com/file/39wgik9xndepink/%255BJM-T%255D_Black_Summoner_Volumen_2.pdf/file",
       epubLink: "#",
+      available: true,
+      status: "available", // Add this line
+    },
+    {
+      number: 3,
+      coverImage: "/black3.webp",
+      pdfLink: "https://www.mediafire.com/file/cip7wmgbd9wyltp/%255BJM-T%255D_Black_Summoner_Vol_3.pdf/file",
+      epubLink: "#",
+      available: true,
+      status: "available", // Add this line
+    },
+    {
+      number: 4,
+      coverImage: "/black4.webp",
+      pdfLink: "https://www.mediafire.com/file/yqqesoo7ul22i9k/%255BJM-T%255D_Black_Summoner_Volumen_4.pdf/file",
+      epubLink: "#",
+      available: true,
+      status: "available", // Add this line
+    },
+    {
+      number: 5,
+      coverImage: "/black5.webp",
+      pdfLink: "https://www.mediafire.com/file/4c51x2m95n0jrdn/%255BLnF%255D_Black_Summoner_-_Volumen_05.pdf/file",
+      epubLink: "#",
+      available: true,
+      status: "available", // Add this line
+    },
+    {
+      number: 6,
+      coverImage: "/black6.webp",
+      pdfLink: "https://www.mediafire.com/file/sf6r1e21oml9lhf/Black_Summoner_Volumen_6.pdf/file",
+      epubLink: "#",
+      available: true,
+      status: "available", // Add this line
+    },
+    {
+      number: 7,
+      coverImage: "/black7.webp",
+      pdfLink: "https://www.mediafire.com/file/7065qwvc9quqy9g/Black_Summoner_Volumen_7.pdf/file",
+      epubLink: "#",
+      available: true,
+      status: "available", // Add this line
+    },
+    {
+      number: 8,
+      coverImage: "/black8.webp",
+      pdfLink: "https://www.mediafire.com/file/jvomp3tw8i0dxm3/Black_Summoner_Volumen_8_Premiun.pdf/file",
+      epubLink: "https://www.mediafire.com/file/1juh9a1pgl20ujv/Fushisha_no_Deshi_-_V04_%255BMegami_no_Manga%255D.epub/file",
+      available: true,
+      status: "available", // Add this line
+    },
+    {
+      number: 9,
+      coverImage: "/black9.webp",
+      pdfLink: "https://www.mediafire.com/file/uqlqnstqcbtbsgi/Black_Summoner_Volumen_9.pdf/file",
+      epubLink: "#",
+      available: true,
+      status: "available", // Add this line
+    },
+    {
+      number: 10,
+      coverImage: "/black10.webp",
+      pdfLink: "https://www.mediafire.com/file/4ouk0bd4i4vgpc8/Black_Summoner_Volumen_10_Premium.pdf/file",
+      epubLink: "#",
+      available: true,
+      status: "available", // Add this line
+    },
+    {
+      number: 11,
+      coverImage: "/black11.webp",
+      pdfLink: "https://www.mediafire.com/file/zjufqx90s2b4a51/Black_Summoner_Volumen_11_Premiun.pdf/file",
+      epubLink: "#",
+      available: true,
+      status: "available", // Add this line
+    },
+    {
+      number: 12,
+      coverImage: "/black12.webp",
+      pdfLink: "https://www.mediafire.com/file/zbvckf05f3185xr/Black_Summoner_Volumen_12_Premiun.pdf/file",
+      epubLink: "#",
+      available: true,
+      status: "available", // Add this line
+    },
+    {
+      number: 13,
+      coverImage: "/black13.webp",
+      pdfLink: "https://www.mediafire.com/file/zbvckf05f3185xr/Black_Summoner_Volumen_12_Premiun.pdf/file",
+      epubLink: "https://www.mediafire.com/file/1juh9a1pgl20ujv/Fushisha_no_Deshi_-_V04_%255BMegami_no_Manga%255D.epub/file",
       available: false,
-      status: "coming-soon",
-      previewLink: "#" // Add this line
+      status: "coming-soon", // Add this line
     },
   ],
 }
 
-export default function UrenokoriNoDoreiElfPage() {
+export default function MainichiPage() {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
@@ -67,7 +153,7 @@ export default function UrenokoriNoDoreiElfPage() {
       <div className="container mx-auto px-4 py-4">
         <Button variant="ghost" size="sm" onClick={() => window.history.back()} className="mb-4 hover:bg-accent">
           <ArrowLeft className="mr-2 h-4 w-4" />
-          Go Back
+          Retroceder
         </Button>
       </div>
 
@@ -222,7 +308,7 @@ export default function UrenokoriNoDoreiElfPage() {
           <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
             <Link href={novelData.supportLinks.paypal} target="_blank" rel="noopener noreferrer">
               <Heart className="mr-2 h-4 w-4" />
-              {novelData.isCompleted ? "Show appreciation through PayPal" : "Dona una sola vez via PayPal"}
+              {novelData.isCompleted ? "Show appreciation through PayPal" : "Dona una sola vez via Ko-Fi"}
               <ExternalLink className="ml-2 h-4 w-4" />
             </Link>
           </Button>
@@ -274,22 +360,6 @@ export default function UrenokoriNoDoreiElfPage() {
                             <Link href={volume.pdfLink} target="_blank" rel="noopener noreferrer">
                               <Download className="mr-2 h-4 w-4" />
                               Descargar PDF
-                            </Link>
-                          </Button>
-
-                          <Button asChild variant="outline" className="w-full bg-transparent" size="sm">
-                            <Link href={volume.epubLink} target="_blank" rel="noopener noreferrer">
-                              <Download className="mr-2 h-4 w-4" />
-                              Desbloquea el EPUB
-                            </Link>
-                          </Button>
-                        </>
-                      ) : volume.status === "in-translation" ? (
-                        <>
-                          <Button asChild className="w-full bg-yellow-600 hover:bg-yellow-700 text-black" size="sm">
-                            <Link href={volume.previewLink} target="_blank" rel="noopener noreferrer">
-                              <Eye className="mr-2 h-4 w-4" />
-                               Lee el Prólogo
                             </Link>
                           </Button>
 

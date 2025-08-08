@@ -53,11 +53,21 @@ const novels: Novel[] = [
     id: "2",
     title: "Fushisha no Deshi: Jashin no Fukyou wo Katte Naraku ni Otosareta Ore no Eiyuutan",
     description: "Cuando Kanbara Kanata es sacado de su vida cotidiana para llevarlo a un mundo de aventuras, sin darse cuenta ofende al ser todopoderoso que lo trajo allí...",
-    coverImage: "/fushisha.webp",
+    coverImage: "/fushisha1.webp",
     genres: ["Acción", "Aventura", "Romance", "Fantasía"],
     status: "in-progress",
     isClickable: true,
     link: "/fushisha-no-deshi",
+  },
+  {
+    id: "3",
+    title: "Black Summoner",
+    description: "Al despertar en un lugar nuevo y extraño sin ningún recuerdo de su vida pasada, Kelvin se entera de que ha intercambiado esos mismos recuerdos a cambio de nuevas y poderosas habilidades durante su reciente transmigración.",
+    coverImage: "/black1.webp",
+    genres: ["Acción", "Aventura", "Fantasía"],
+    status: "in-progress",
+    isClickable: true,
+    link: "/black-summoner",
   },
 ]
 
