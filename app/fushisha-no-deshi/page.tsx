@@ -12,7 +12,7 @@ import { Navbar } from "@/components/navbar"
 // DATOS DE LA NOVELA - Solo cambia esto para crear una nueva página
 const novelData = {
   title: "Fushisha no Deshi: Jashin no Fukyou wo Katte Naraku ni Otosareta Ore no Eiyuutan",
-  coverImage: "/fushisha4.webp",
+  coverImage: "/fushisha1.webp",
   isCompleted: false,
   synopsis: `Cuando Kanbara Kanata es sacado de su vida cotidiana para llevarlo a un mundo de aventuras, sin darse cuenta ofende al ser todopoderoso que lo trajo allí. 
 
