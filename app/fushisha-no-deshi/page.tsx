@@ -11,60 +11,65 @@ import { Navbar } from "@/components/navbar"
 
 // DATOS DE LA NOVELA - Solo cambia esto para crear una nueva página
 const novelData = {
-  title: "Mainichi Ie ni Kuru Gal ga Kyorikan Zero Demo Yasashiku nai",
-  coverImage: "/mainichi-ex.webp",
+  title: "Fushisha no Deshi: Jashin no Fukyou wo Katte Naraku ni Otosareta Ore no Eiyuutan",
+  coverImage: "/fushisha4.webp",
   isCompleted: false,
-  synopsis: `La pacifica vida escolar de Taichi Utsugi se vió seriamente afectada el día que por error, se rió de un chiste relacionado al peso de la chica gal más popular de la escuela, y que a su vez estaba en la cima de la jerarquía del salón.
+  synopsis: `Cuando Kanbara Kanata es sacado de su vida cotidiana para llevarlo a un mundo de aventuras, sin darse cuenta ofende al ser todopoderoso que lo trajo allí. 
 
-Manten Fuwa ha estado lidiando con problemas de peso en el ultimo año, cosa que le costó su trabajo como modelo, y el respeto de sus compañeros de clase. Llevandola poco a poco perder poder contra su rival, Yaida.
-Cómo resultado de ello, se vio en la obligación de bajar de peso con el fin vengarse de todos sus compañeros. Sin embargo era una tarea no que no podía llevar acabo ella sola, fue ahí cuando obligó a Taichi para que la compañara en meta como castigo por haberse reido de ella.
+Como castigo, ¡es enviado al fondo de la mazmorra más peligrosa sin un solo poder o habilidad especial! Está seguro de que está perdido hasta que conoce a una chica lich llamada Lunaère, una poderosa no muerta que odia a los humanos, pero que a regañadientes decide ayudarlo de todos modos. 
 
-Así es como comienza una comedia romantica entre un chico introvertido y una gal con actitud de matona.`,
+¡Con la ayuda de Lunaère, Kanata podría convertirse en alguien realmente increíble!`,
 
   details: {
-    alternativeTitles: ["毎日家に来るギャルが距離感ゼロでも優しくない", "La chica gal que viene a mi casa todos los días no tiene límites pero no es amable!"],
-    author: "Raito",
-    illustrator: "Hana Kimura",
-    yearPublished: "2023",
-    publisher: "Micro Magazine",
-    totalVolumes: 3,
-    translatedVolumes: 1,
-    genres: ["Romance", "Vida Escolar", "Comedia", "Drama", "Gyaru"],
+    alternativeTitles: ["不死者の弟子 ～邪神の不興を買って奈落に落とされた俺の英雄譚～", "Discípulo del Lich ¡O Cómo fui Maldecido por los Dioses y Arrojado al Abismo!", "Disciple of the Lich: Or How I Was Cursed By the Gods and Dropped into the Abyss, The Disciple of Lich Disciple of Immortal", "The Disciple of Lich: This is Heroic Tale of Mine That I Incurred Evil God’s Displeasure and Dropped to the Abyss"],
+    author: "Nekoko",
+    illustrator: "Yoh Hihara",
+    yearPublished: "2020",
+    publisher: "OVERLAP",
+    totalVolumes: 7,
+    translatedVolumes: 4,
+    genres: ["Acción", "Aventura", "Comedia", "Drama", "Fantasía", "Romance"],
   },
 
   showAdWarning: false,
 
   supportLinks: {
-    patreon: "https://www.patreon.com/Gashadokai/membership",
-    paypal: "https://www.paypal.com/paypalme/kidsenpai",
+    patreon: "https://patreon.com/LegendsNoFansub",
+    paypal: "https://ko-fi.com/legendsnofansub",
   },
 
   volumes: [
     {
       number: 1,
-      coverImage: "/gal1.webp",
-      pdfLink: "https://www.mediafire.com/file/pvd7p5i8m7cvy1u/La_chica_gal_que_viene_a_mi_casa_todos_los_di%25CC%2581as_no_tiene_li%25CC%2581mites_pero_no_es_amable_1.pdf/file",
-      epubLink: "https://www.patreon.com/posts/mainichi-ie-ni-1-133924345",
+      coverImage: "/fushisha1.webp",
+      pdfLink: "https://www.mediafire.com/file/asm1rl2b5byi5ad/%255BMNM_%2526_LNF%255D_Disc%25C3%25ADpulo_del_Lich_-_Volumen_01.pdf/file",
+      epubLink: "https://www.mediafire.com/file/71o9qe2xg1n409f/%255BMNM_%2526_LNF%255D_Disc%25C3%25ADpulo_del_Lich_-_Volumen_01.epub/file",
       available: true,
       status: "available", // Add this line
     },
     {
       number: 2,
-      coverImage: "/gal2.webp",
-      pdfLink: "#",
-      epubLink: "#",
-      available: false,
-      status: "coming-soon",
-      previewLink: "#" // Add this line
+      coverImage: "/fushisha2.webp",
+      pdfLink: "https://www.mediafire.com/file/k8i1qh7ifgmhuur/%255BMNM_%2526_LNF%255D_Disc%25C3%25ADpulo_del_Lich_-_Volumen_02.pdf/file",
+      epubLink: "https://www.mediafire.com/file/ofd731z07l14xq2/Fushisha_no_Deshi_-_V02_%255BMegami_no_Manga_x_Legends_no_Fansub%255D.epub/file",
+      available: true,
+      status: "available", // Add this line
     },
     {
       number: 3,
-      coverImage: "/gal3.webp",
-      pdfLink: "#",
-      epubLink: "#",
-      available: false,
-      status: "coming-soon", // Add this line
-      previewLink: "#", // Add this line
+      coverImage: "/fushisha3.webp",
+      pdfLink: "https://www.mediafire.com/file/gy70g3mgl3rnsjs/%255BMNM_%2526_LNF%255D_Disc%25C3%25ADpulo_del_Lich_-_Volumen_03.pdf/file",
+      epubLink: "https://www.mediafire.com/file/9b4dkgvl6dpr1lm/Fushisha_no_Deshi_-_V03_%255BMegami_no_Manga%255D.epub/file",
+      available: true,
+      status: "available", // Add this line
+    },
+    {
+      number: 4,
+      coverImage: "/fushisha4.webp",
+      pdfLink: "https://www.mediafire.com/file/8imjgdyy8lnd60c/%255BMNM_%2526_LNF%255D_Disc%25C3%25ADpulo_del_Lich_-_Volumen_04.pdf/file",
+      epubLink: "https://www.mediafire.com/file/1juh9a1pgl20ujv/Fushisha_no_Deshi_-_V04_%255BMegami_no_Manga%255D.epub/file",
+      available: true,
+      status: "available", // Add this line
     },
   ],
 }
@@ -77,7 +82,7 @@ export default function MainichiPage() {
       <div className="container mx-auto px-4 py-4">
         <Button variant="ghost" size="sm" onClick={() => window.history.back()} className="mb-4 hover:bg-accent">
           <ArrowLeft className="mr-2 h-4 w-4" />
-          Go Back
+          Retroceder
         </Button>
       </div>
 
@@ -232,7 +237,7 @@ export default function MainichiPage() {
           <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
             <Link href={novelData.supportLinks.paypal} target="_blank" rel="noopener noreferrer">
               <Heart className="mr-2 h-4 w-4" />
-              {novelData.isCompleted ? "Show appreciation through PayPal" : "Dona una sola vez via PayPal"}
+              {novelData.isCompleted ? "Show appreciation through PayPal" : "Dona una sola vez via Ko-Fi"}
               <ExternalLink className="ml-2 h-4 w-4" />
             </Link>
           </Button>
@@ -290,7 +295,7 @@ export default function MainichiPage() {
                           <Button asChild variant="outline" className="w-full bg-transparent" size="sm">
                             <Link href={volume.epubLink} target="_blank" rel="noopener noreferrer">
                               <Download className="mr-2 h-4 w-4" />
-                              Desbloquea el EPUB
+                              Descargar EPUB
                             </Link>
                           </Button>
                         </>

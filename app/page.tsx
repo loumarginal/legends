@@ -57,7 +57,7 @@ const novels: Novel[] = [
     genres: ["Acción", "Aventura", "Romance", "Fantasía"],
     status: "in-progress",
     isClickable: true,
-    link: "/mainichi-ie-ni-kuru-gal",
+    link: "/fushisha-no-deshi",
   },
 ]
 

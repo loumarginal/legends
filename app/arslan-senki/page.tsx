@@ -147,7 +147,7 @@ export default function NetorarePage() {
       <div className="container mx-auto px-4 py-4">
         <Button variant="ghost" size="sm" onClick={() => window.history.back()} className="mb-4 hover:bg-accent">
           <ArrowLeft className="mr-2 h-4 w-4" />
-          Go Back
+          Retroceder
         </Button>
       </div>
 
