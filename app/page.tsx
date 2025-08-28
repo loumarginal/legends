@@ -383,7 +383,7 @@ const novels: Novel[] = [
     id: "34",
     title: "Hahaoya ga Ero-Ranobe Taishou Jushou Shite Jinsei",
     description: "Al despertar en un lugar nuevo y extraño sin ningún recuerdo de su vida pasada, Kelvin se entera de que ha intercambiado esos mismos recuerdos a cambio de nuevas y poderosas habilidades durante su reciente transmigración.",
-    coverImage: "/hahaoya.webp",
+    coverImage: "/Hahaoya.webp",
     genres: ["Acción", "Aventura", "Fantasía"],
     status: "in-progress",
     isClickable: false,
