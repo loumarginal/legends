@@ -343,7 +343,7 @@ const novels: Novel[] = [
     id: "30",
     title: "VTuber nanda ga Haishin Kiri Wasuretara Densetsu ni Natteta",
     description: "Al despertar en un lugar nuevo y extraño sin ningún recuerdo de su vida pasada, Kelvin se entera de que ha intercambiado esos mismos recuerdos a cambio de nuevas y poderosas habilidades durante su reciente transmigración.",
-    coverImage: "/vtuber.webp",
+    coverImage: "/vTuber.webp",
     genres: ["Acción", "Aventura", "Fantasía"],
     status: "in-progress",
     isClickable: false,
