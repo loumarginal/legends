@@ -11,22 +11,22 @@ import { Navbar } from "@/components/navbar"
 
 // DATOS DE LA NOVELA - Solo cambia esto para crear una nueva página
 const novelData = {
-  title: "Binzume Jigoku Otome no Hondana, Hell in a Bottle",
-  coverImage: "/binzume.webp",
+  title: "Haru wa Basha ni Notte, Spring Comes Riding in a Carriage",
+  coverImage: "/haru.webp",
   isCompleted: true,
-  synopsis: `Dos jóvenes hermanos abandonados a su suerte en una isla desierta, a la espera de un rescate que quizá nunca llegue. Encuentran la alegría en las maravillas de su Edén personal, hasta que “el demonio” sacude su fe y los lleva por el camino de la tentación…
+  synopsis: `“No puedo imaginar lo maravilloso que será morir…”
 
-  Relatada a través de una serie de cartas selladas en botellas y arrojadas al mar, el clásico de Kyusaku Yumeno es tan lastimero e inmediato hoy como cuando se publicó por primera vez en 1928.`,
+Confinada en un lecho de enfermedad junto al mar, una mujer espera la muerte mientras su marido la cuida. Sin embargo, este no es un idilio trágico; el espacio entre ellos está lleno de antagonismo, miedo, sospecha, dolor… y amor. Riichi Yokomitsu aporta una sensibilidad mordazmente realista a esta claustrofóbica historia de amor y muerte, tan conmovedora como agonizante.`,
 
   details: {
-    alternativeTitles: ["La estantería de las damas. - El infierno en una botella"],
-    author: "Kyusaku Yumeno",
-    illustrator: "Towoji Honojiro",
-    yearPublished: "no data",
+    alternativeTitles: ["La estantería de las damas. – La primavera llega montada en un carruaje"],
+    author: "Riichi Yokomitsu",
+    illustrator: "Atsuki Ito",
+    yearPublished: "2023",
     publisher: "no data",
     totalVolumes: 1,
     translatedVolumes: 1,
-    genres: ["Tragedia"],
+    genres: ["Tragedia", "Fantasía"],
   },
 
   showAdWarning: false,
@@ -39,9 +39,9 @@ const novelData = {
   volumes: [
     {
       number: 1,
-      coverImage: "/binzume.webp",
-      pdfLink: "https://www.mediafire.com/file/tkh2nqffm5sackv/%255BSv%255D_LED_-_Volumen_1_-_El_infierno_en_una_botella.pdf/file",
-      epubLink: "https://www.mediafire.com/file/hl2vthslikxp31p/%255BSv%255D_LED_-_Volumen_1_-_El_infierno_en_una_botella.epub/file",
+      coverImage: "/haru.webp",
+      pdfLink: "https://www.mediafire.com/file/si67evyk1yu04ya/%255BSv%255D_LED._Volumen_5_-_La_Primavera_Llega_Montada_en_un_Carruaje.pdf/file",
+      epubLink: "https://www.mediafire.com/file/sn0wjucstbsqg0i/%255BSv%255D_LED._Volumen_5_-_La_Primavera_Llega_Montada_en_un_Carruaje.epub/file",
       available: true,
       status: "available", // Add this line
     },

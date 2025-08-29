@@ -2,11 +2,11 @@ import type React from "react"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Arslan Senki - Descargar Novela Ligera en PDF y EPUB",
+  title: "Binzume Jigoku Otome no Hondana, Hell in a Bottle - Descargar Novela Ligera en PDF y EPUB",
   description:
-    "Descargar Arslan Senki light novel en PDF y EPUB formato.",
+    "Descargar Binzume Jigoku Otome no Hondana, Hell in a Bottle light novel en PDF y EPUB formato.",
   keywords: [
-    "Arslan Senki",
+    "Binzume Jigoku Otome no Hondana",
     "light novel descargar",
     "PDF",
     "EPUB",
@@ -14,17 +14,17 @@ export const metadata: Metadata = {
     "Japanese light novel translation",
   ],
   openGraph: {
-    title: "Arslan Senki - Descargar Novela Ligera en PDF y EPUB",
+    title: "Binzume Jigoku Otome no Hondana, Hell in a Bottle - Descargar Novela Ligera en PDF y EPUB",
     description:
-      "Descargar Arslan Senki light novel en PDF y EPUB formato.",
-    url: "https://gashaworld.club/arslan-senki",
+      "Descargar Binzume Jigoku Otome no Hondana, Hell in a Bottle light novel en PDF y EPUB formato.",
+    url: "https://legnnovels.com/binzume-jigoku-otome-no-hondana",
     siteName: "LegendsNoFansub",
     images: [
       {
-        url: "/og-arslan.webp",
+        url: "/binzume.webp",
         width: 1200,
         height: 630,
-        alt: "Arslan Senki - Descargar Novela Ligera en PDF y EPUB",
+        alt: "Binzume Jigoku Otome no Hondana, Hell in a Bottle - Descargar Novela Ligera en PDF y EPUB",
       },
     ],
     locale: "es_ES",
@@ -32,12 +32,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Arslan Senki - Descargar Novela Ligera en PDF y EPUB",
-    description: "Descargar Arslan Senki light novel en PDF y EPUB formato.",
-    images: ["/og-arslan.webp"],
+    title: "Binzume Jigoku Otome no Hondana, Hell in a Bottle - Descargar Novela Ligera en PDF y EPUB",
+    description: "Descargar Binzume Jigoku Otome no Hondana, Hell in a Bottle light novel en PDF y EPUB formato.",
+    images: ["/binzume.webp"],
   },
   alternates: {
-    canonical: "https://gashaworld.club/arslan-senki",
+    canonical: "https://legnnovels.coms/binzume-jigoku-otome-no-hondana",
   },
 }
 

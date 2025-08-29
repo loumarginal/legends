@@ -11,22 +11,22 @@ import { Navbar } from "@/components/navbar"
 
 // DATOS DE LA NOVELA - Solo cambia esto para crear una nueva página
 const novelData = {
-  title: "Binzume Jigoku Otome no Hondana, Hell in a Bottle",
-  coverImage: "/binzume.webp",
+  title: "Gekashitsu, The Surgery Room",
+  coverImage: "/gekashitsu.webp",
   isCompleted: true,
-  synopsis: `Dos jóvenes hermanos abandonados a su suerte en una isla desierta, a la espera de un rescate que quizá nunca llegue. Encuentran la alegría en las maravillas de su Edén personal, hasta que “el demonio” sacude su fe y los lleva por el camino de la tentación…
+  synopsis: `“¡Pero no podrías haberlo sabido!”.
 
-  Relatada a través de una serie de cartas selladas en botellas y arrojadas al mar, el clásico de Kyusaku Yumeno es tan lastimero e inmediato hoy como cuando se publicó por primera vez en 1928.`,
+Un misterioso encuentro en la sala de cirugía nos lleva por los caminos de los recuerdos después de que una dama rechaza la anestesia para proteger su secreto… A la vez onírica y sorprendentemente moderna, la historia de amor condenado de Kyoka Izumi de 1895 nunca ha sido más desgarradora que aquí, presentada junto a las inquietantes y evocadoras ilustraciones de Towoji Honojiro.`,
 
   details: {
-    alternativeTitles: ["La estantería de las damas. - El infierno en una botella"],
-    author: "Kyusaku Yumeno",
+    alternativeTitles: ["La estantería de las damas. – La Sala de Cirugía"],
+    author: "Kyoka Izumi",
     illustrator: "Towoji Honojiro",
-    yearPublished: "no data",
+    yearPublished: "2023",
     publisher: "no data",
     totalVolumes: 1,
     translatedVolumes: 1,
-    genres: ["Tragedia"],
+    genres: ["Tragedia", "Fantasía"],
   },
 
   showAdWarning: false,
@@ -39,9 +39,9 @@ const novelData = {
   volumes: [
     {
       number: 1,
-      coverImage: "/binzume.webp",
-      pdfLink: "https://www.mediafire.com/file/tkh2nqffm5sackv/%255BSv%255D_LED_-_Volumen_1_-_El_infierno_en_una_botella.pdf/file",
-      epubLink: "https://www.mediafire.com/file/hl2vthslikxp31p/%255BSv%255D_LED_-_Volumen_1_-_El_infierno_en_una_botella.epub/file",
+      coverImage: "/gekashitsu.webp",
+      pdfLink: "https://www.mediafire.com/file/o4q193j0cwvw1xb/%255BSv%255D_LED._Volumen_3_-_La_Sala_de_Cirug%25C3%25ADa.pdf/file",
+      epubLink: "https://www.mediafire.com/file/7yeemzgez7ciic6/%255BSv%255D_LED._Volumen_3_-_La_Sala_de_Cirug%25C3%25ADa.epub/file",
       available: true,
       status: "available", // Add this line
     },

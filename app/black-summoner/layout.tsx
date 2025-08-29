@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: "Black Summoner - Descargar Light Novel PDF & EPUB",
     description:
       "Descargar Black Summoner light novel en PDF y EPUB formats.",
-    url: "https://gashaworld.club/black-summoner",
+    url: "https://legnnovels.com/black-summoner",
     siteName: "LegendsNoFansub",
     images: [
       {
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     images: ["/og-gal.webp"],
   },
   alternates: {
-    canonical: "https://gashaworld.club/black-summoner",
+    canonical: "https://legnnovels.com/black-summoner",
   },
 }
 

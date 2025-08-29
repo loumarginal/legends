@@ -11,22 +11,22 @@ import { Navbar } from "@/components/navbar"
 
 // DATOS DE LA NOVELA - Solo cambia esto para crear una nueva página
 const novelData = {
-  title: "Binzume Jigoku Otome no Hondana, Hell in a Bottle",
-  coverImage: "/binzume.webp",
-  isCompleted: true,
-  synopsis: `Dos jóvenes hermanos abandonados a su suerte en una isla desierta, a la espera de un rescate que quizá nunca llegue. Encuentran la alegría en las maravillas de su Edén personal, hasta que “el demonio” sacude su fe y los lleva por el camino de la tentación…
-
-  Relatada a través de una serie de cartas selladas en botellas y arrojadas al mar, el clásico de Kyusaku Yumeno es tan lastimero e inmediato hoy como cuando se publicó por primera vez en 1928.`,
+  title: "Tantei wa Mou, Shindeiru",
+  coverImage: "/tantei.webp",
+  isCompleted: false,
+  synopsis: `La historia se centra en Kimihiko Kimizuka, una estudiante de tercer año de secundaria y ex asistente de un detective llamado Siesta. Conoció a Siesta hace tres años, a 10.000 metros sobre el suelo, en un avión secuestrado. 
+  
+  Los dos se embarcaron en una aventura desafiando a la muerte una tras otra durante tres años que finalmente terminó con la prematura muerte de Siesta. Cuando se queda sola, Kimihiko hace todo lo posible por reintegrarse a una vida normal.`,
 
   details: {
-    alternativeTitles: ["La estantería de las damas. - El infierno en una botella"],
-    author: "Kyusaku Yumeno",
-    illustrator: "Towoji Honojiro",
-    yearPublished: "no data",
-    publisher: "no data",
-    totalVolumes: 1,
-    translatedVolumes: 1,
-    genres: ["Tragedia"],
+    alternativeTitles: ["The Detective Is Already Dead", "探偵はもう","死んでいる。", "Tanmoshi", "La Detective está Muerta"],
+    author: "Nigojuu",
+    illustrator: "Umibouzu",
+    yearPublished: "2019",
+    publisher: "MF Bunko",
+    totalVolumes: 5,
+    translatedVolumes: 5,
+    genres: ["Comedia", "Drama", "Misterio", "Romance"],
   },
 
   showAdWarning: false,
@@ -38,10 +38,42 @@ const novelData = {
 
   volumes: [
     {
-      number: 1,
-      coverImage: "/binzume.webp",
-      pdfLink: "https://www.mediafire.com/file/tkh2nqffm5sackv/%255BSv%255D_LED_-_Volumen_1_-_El_infierno_en_una_botella.pdf/file",
-      epubLink: "https://www.mediafire.com/file/hl2vthslikxp31p/%255BSv%255D_LED_-_Volumen_1_-_El_infierno_en_una_botella.epub/file",
+      number: 7,
+      coverImage: "/tantei/tantei7.webp",
+      pdfLink: "https://www.mediafire.com/file/g1n1a40nubterqp/Tantei_Wa_Mou_Vol_7.pdf/file",
+      epubLink: "#",
+      available: true,
+      status: "available", // Add this line
+    },
+    {
+      number: 8,
+      coverImage: "/tantei/tantei8.webp",
+      pdfLink: "https://www.mediafire.com/file/b80ymolwu97dugy/Tantei_wa_Mou_Shindeiru_Vol._8..pdf/file",
+      epubLink: "#",
+      available: true,
+      status: "available", // Add this line
+    },
+    {
+      number: 9,
+      coverImage: "/tantei/tantei9.webp",
+      pdfLink: "https://www.mediafire.com/file/zqyw49itr3lun3e/Tantei_wa_mou_Shindeiru_Vol._9.pdf/file",
+      epubLink: "#",
+      available: true,
+      status: "available", // Add this line
+    },
+    {
+      number: 10,
+      coverImage: "/tantei/tantei10.webp",
+      pdfLink: "https://www.mediafire.com/file/343gyfuof105ldn/Tantei_wa_mou_Shindeiru_Vol_10.pdf/file",
+      epubLink: "#",
+      available: true,
+      status: "available", // Add this line
+    },
+    {
+      number: 11,
+      coverImage: "/tantei.webp",
+      pdfLink: "https://www.mediafire.com/file/0sr30sq9vdh9d25/Tantei_wa_mou_Shundeiru_Vol_11.pdf/file",
+      epubLink: "#",
       available: true,
       status: "available", // Add this line
     },

@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: "%s | Legends no Fansub",
   },
   description:
-    "Descarga novelas ligeras traducidas por Gashadokai en formatos PDF y EPUB. Descubre increíbles historias japonesas traducidas al inglés con contexto cultural y fluidez natural.",
+    "Descarga novelas ligeras traducidas por Legends no Fansub en formatos PDF y EPUB. Descubre increíbles historias japonesas traducidas al inglés con contexto cultural y fluidez natural.",
   keywords: [
     "Traduccion de novelas ligeras",
     "Descarga PDF",
@@ -32,32 +32,32 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://gashaworld.club"), // Replace with your actual domain
+  metadataBase: new URL("https://www.legnnovels.com/"), // Replace with your actual domain
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "en_ES",
-    url: "https://gashaworld.club", // Replace with your actual domain
-    title: "Gashadokai - Traducción de Novelas Ligeras",
+    url: "https://www.legnnovels.com/", // Replace with your actual domain
+    title: "Legends no Fansub - Traducción de Novelas Ligeras",
     description:
-      "Descarga novelas ligeras traducidas por Gashadokai en formatos PDF y EPUB. Descubre increíbles historias japonesas traducidas al inglés con contexto cultural y fluidez natural.",
+      "Descarga novelas ligeras traducidas por Legends no Fansub en formatos PDF y EPUB. Descubre increíbles historias japonesas traducidas al inglés con contexto cultural y fluidez natural.",
     siteName: "Legends no Fansub",
     images: [
       {
         url: "/og-home.webp", // Replace with your actual OG image
         width: 1200,
         height: 630,
-        alt: "Gashadokai - Traducción de Novelas Ligeras",
+        alt: "Legends no Fansub - Traducción de Novelas Ligeras",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gashadokai - Traducción de Novelas Ligeras",
-    description: "Descarga novelas ligeras traducidas por Gashadokai en formatos PDF y EPUB.",
-    creator: "@gashadokai", // Replace with your Twitter handle
+    title: "Legends no Fansub - Traducción de Novelas Ligeras",
+    description: "Descarga novelas ligeras traducidas por Legends no Fansub en formatos PDF y EPUB.",
+    creator: "@legendsnofansub", // Replace with your Twitter handle
     images: ["/og-home.webp"], // Replace with your actual image
   },
   robots: {
@@ -96,14 +96,13 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Organization",
-              name: "Gashadokai",
-              url: "https://gashaworld.club",
-              logo: "https://gashaworld.club/logo.png",
+              name: "Legends no Fansub",
+              url: "https://www.legnnovels.com/",
+              logo: "https://www.legnnovels.com/logo.png",
               description: "Traducción de novelas ligeras y descargas",
               sameAs: [
-                "https://twitter.com/gashadokai",
-                "https://facebook.com/gashaworld",
-                "https://discord.gg/gashadokai",
+                "https://twitter.com/legendsnofansub",
+                "https://facebook.com/legendsnofansub",
               ],
             }),
           }}

@@ -11,22 +11,22 @@ import { Navbar } from "@/components/navbar"
 
 // DATOS DE LA NOVELA - Solo cambia esto para crear una nueva página
 const novelData = {
-  title: "Binzume Jigoku Otome no Hondana, Hell in a Bottle",
-  coverImage: "/binzume.webp",
+  title: "Sangetsuki, The Moon Over the Mountain",
+  coverImage: "/sangetsuki.webp",
   isCompleted: true,
-  synopsis: `Dos jóvenes hermanos abandonados a su suerte en una isla desierta, a la espera de un rescate que quizá nunca llegue. Encuentran la alegría en las maravillas de su Edén personal, hasta que “el demonio” sacude su fe y los lleva por el camino de la tentación…
+  synopsis: `En el transcurso de un viaje de rutina, el inspector del gobierno Yuan Can se encuentra con su viejo amigo Li Zheng, pero no como lo recuerda. Transformado por su obsesión en una bestia espantosa, Li Zheng cuenta su historia trágica y finalmente le presenta a su confidente una petición singular.
 
-  Relatada a través de una serie de cartas selladas en botellas y arrojadas al mar, el clásico de Kyusaku Yumeno es tan lastimero e inmediato hoy como cuando se publicó por primera vez en 1928.`,
+Vestida con los adornos de la China del siglo VIII, la meditación de Atsushi Nakajima sobre la poesía y la amistad trasciende el tiempo y el lenguaje para hablar directamente a nuestros corazones sobre lo que significa ser humano.`,
 
   details: {
-    alternativeTitles: ["La estantería de las damas. - El infierno en una botella"],
-    author: "Kyusaku Yumeno",
-    illustrator: "Towoji Honojiro",
-    yearPublished: "no data",
+    alternativeTitles: ["La estantería de las damas. – La luna sobre la montaña"],
+    author: "Atsushi Nakajima",
+    illustrator: "Nekosuke",
+    yearPublished: "2023",
     publisher: "no data",
     totalVolumes: 1,
     translatedVolumes: 1,
-    genres: ["Tragedia"],
+    genres: ["Tragedia", "Fantasía"],
   },
 
   showAdWarning: false,
@@ -39,9 +39,9 @@ const novelData = {
   volumes: [
     {
       number: 1,
-      coverImage: "/binzume.webp",
-      pdfLink: "https://www.mediafire.com/file/tkh2nqffm5sackv/%255BSv%255D_LED_-_Volumen_1_-_El_infierno_en_una_botella.pdf/file",
-      epubLink: "https://www.mediafire.com/file/hl2vthslikxp31p/%255BSv%255D_LED_-_Volumen_1_-_El_infierno_en_una_botella.epub/file",
+      coverImage: "/sangetsuki.webp",
+      pdfLink: "https://www.mediafire.com/file/3259pd0eb7wzwas/%255BSv%255D_LED._Volumen_2_-_La_Luna_sobre_la_Monta%25C3%25B1a.pdf/file",
+      epubLink: "https://www.mediafire.com/file/45hdp2rp8okasts/%255BSv%255D_LED._Volumen_2_-_La_Luna_sobre_la_Monta%25C3%25B1a.epub/file",
       available: true,
       status: "available", // Add this line
     },

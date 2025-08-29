@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://gashaworld.club/sitemap.xml
+Sitemap: https://legnnovels.com/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1

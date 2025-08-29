@@ -11,22 +11,24 @@ import { Navbar } from "@/components/navbar"
 
 // DATOS DE LA NOVELA - Solo cambia esto para crear una nueva página
 const novelData = {
-  title: "Binzume Jigoku Otome no Hondana, Hell in a Bottle",
-  coverImage: "/binzume.webp",
+  title: "Gyofukuki, The Girl Who Became a Fish",
+  coverImage: "/gyofukuki.webp",
   isCompleted: true,
-  synopsis: `Dos jóvenes hermanos abandonados a su suerte en una isla desierta, a la espera de un rescate que quizá nunca llegue. Encuentran la alegría en las maravillas de su Edén personal, hasta que “el demonio” sacude su fe y los lleva por el camino de la tentación…
+  synopsis: `¿Qué oscuro destino aguarda bajo las rugientes cataratas?
 
-  Relatada a través de una serie de cartas selladas en botellas y arrojadas al mar, el clásico de Kyusaku Yumeno es tan lastimero e inmediato hoy como cuando se publicó por primera vez en 1928.`,
+Suwa y su padre viven solos en las laderas de la Montaña del caballo y se ganan la vida a duras penas. Durante los meses más cálidos, la hermosa cascada atrae a algunos turistas, pero cuando llega el invierno sólo hay soledad. Suwa haría cualquier cosa para escapar de la vida a la que se ha resignado su padre. Y el atractivo del acantilado es fuerte…
+
+Este clásico temprano del autor de la novela moderna más importante de Japón es una historia oscura e implícita de desesperanza que entreteje el folclore de las montañas en una historia contra la adultez tan vívidamente relevante hoy como lo era cuando fue escrita hace casi cien años.`,
 
   details: {
-    alternativeTitles: ["La estantería de las damas. - El infierno en una botella"],
-    author: "Kyusaku Yumeno",
-    illustrator: "Towoji Honojiro",
-    yearPublished: "no data",
+    alternativeTitles: ["La estantería de las damas. – La niña que se convirtió en pez"],
+    author: "Osamu Dazai",
+    illustrator: "Nekosuke",
+    yearPublished: "2023",
     publisher: "no data",
     totalVolumes: 1,
     translatedVolumes: 1,
-    genres: ["Tragedia"],
+    genres: ["Tragedia", "Fantasía"],
   },
 
   showAdWarning: false,
@@ -39,9 +41,9 @@ const novelData = {
   volumes: [
     {
       number: 1,
-      coverImage: "/binzume.webp",
-      pdfLink: "https://www.mediafire.com/file/tkh2nqffm5sackv/%255BSv%255D_LED_-_Volumen_1_-_El_infierno_en_una_botella.pdf/file",
-      epubLink: "https://www.mediafire.com/file/hl2vthslikxp31p/%255BSv%255D_LED_-_Volumen_1_-_El_infierno_en_una_botella.epub/file",
+      coverImage: "/gyofukuki.webp",
+      pdfLink: "https://www.mediafire.com/file/1vl0ith0x8svlwk/%255BSv%255D_LED._Volumen_4_-_La_Ni%25C3%25B1a_Que_Se_Convirti%25C3%25B3_En_Pez.pdf/file",
+      epubLink: "https://www.mediafire.com/file/8jos3mvof6bi5vb/%255BSv%255D_LED._Volumen_4_-_La_Ni%25C3%25B1a_Que_Se_Convirti%25C3%25B3_En_Pez.epub/file",
       available: true,
       status: "available", // Add this line
     },

@@ -11,22 +11,34 @@ import { Navbar } from "@/components/navbar"
 
 // DATOS DE LA NOVELA - Solo cambia esto para crear una nueva página
 const novelData = {
-  title: "Binzume Jigoku Otome no Hondana, Hell in a Bottle",
-  coverImage: "/binzume.webp",
-  isCompleted: true,
-  synopsis: `Dos jóvenes hermanos abandonados a su suerte en una isla desierta, a la espera de un rescate que quizá nunca llegue. Encuentran la alegría en las maravillas de su Edén personal, hasta que “el demonio” sacude su fe y los lleva por el camino de la tentación…
+  title: "Nidome no Yuusha wa Fukushuu no Michi wo Warai Ayumu",
+  coverImage: "/nidome.webp",
+  isCompleted: false,
+  synopsis: `Ukei Kaito libró una lucha desesperada para cumplir su papel como héroe invocado. Derrotó al ser conocido como Señor de los Demonios y salvó al mundo, solo para encontrarse con un final lleno de traición. Los compañeros en los que había confiado a lo largo de su viaje lo traicionaron y lo asesinaron clavándole una espada en el pecho.
 
-  Relatada a través de una serie de cartas selladas en botellas y arrojadas al mar, el clásico de Kyusaku Yumeno es tan lastimero e inmediato hoy como cuando se publicó por primera vez en 1928.`,
+Fue entonces cuando se juró algo a sí mismo.
+
+Juró que, si se le daba otra oportunidad, ya no se aferraría tan ingenuamente al concepto de “fe”.
+
+Juró que, si le daban otra oportunidad, se dedicaría a realizar los actos de venganza más atroces posibles.
+
+Juró que, si le daban otra oportunidad, haría las cosas bien.
+
+“Mataré a todos y cada uno de ustedes… lo juro…”.
+
+Y así, murió, dejando atrás solo una serie de últimas palabras amenazantes, pero su historia aún no había terminado. Una voz resonó en su cabeza y le informó que había más en su destino que lo que yacía más allá de la tumba.
+
+[Mensaje del sistema: Modo tutorial completado]`,
 
   details: {
-    alternativeTitles: ["La estantería de las damas. - El infierno en una botella"],
-    author: "Kyusaku Yumeno",
-    illustrator: "Towoji Honojiro",
-    yearPublished: "no data",
-    publisher: "no data",
-    totalVolumes: 1,
-    translatedVolumes: 1,
-    genres: ["Tragedia"],
+    alternativeTitles: ["二度目の勇者は復讐の道を嗤い歩む", "El héroe ríe mientras recorre el camino de la venganza en su segunda vida", "The Hero is Walking the Second Time on the Path of Vengeance While Laughing"],
+    author: "Kizuka Nero",
+    illustrator: "Sinsora",
+    yearPublished: "2016",
+    publisher: "MF Bunko",
+    totalVolumes: 5,
+    translatedVolumes: 5,
+    genres: ["Acción", "Aventura", "Fantasía", "Drama"],
   },
 
   showAdWarning: false,
@@ -39,9 +51,41 @@ const novelData = {
   volumes: [
     {
       number: 1,
-      coverImage: "/binzume.webp",
-      pdfLink: "https://www.mediafire.com/file/tkh2nqffm5sackv/%255BSv%255D_LED_-_Volumen_1_-_El_infierno_en_una_botella.pdf/file",
-      epubLink: "https://www.mediafire.com/file/hl2vthslikxp31p/%255BSv%255D_LED_-_Volumen_1_-_El_infierno_en_una_botella.epub/file",
+      coverImage: "/nidome.webp",
+      pdfLink: "https://www.mediafire.com/file/51ueazbwqdqzeki/Nidome_no_Yuusha_-_Volumen_01_BN_%255BMK_%2526_LnF%255D.pdf/file",
+      epubLink: "https://www.mediafire.com/file/o65zgz3z8n752ef/Nidome_no_Yuusha_-_Volumen_01_BN_%255BMK_%2526_LnF%255D.epub/file",
+      available: true,
+      status: "available", // Add this line
+    },
+    {
+      number: 2,
+      coverImage: "/n/n2.webp",
+      pdfLink: "https://www.mediafire.com/file/fk1kiqjm7t5jwae/Nidome_no_Yuusha_-_Volumen_02_BN_%255BMK_%2526_LnF_%2526_AZAZEL%255D.pdf/file",
+      epubLink: "https://www.mediafire.com/file/98vupdzps8tqoas/Nidome_no_Yuusha_-_Volumen_02_BN_%255BMK_%2526_LnF_%2526_AZAZEL%255D.epub/file",
+      available: true,
+      status: "available", // Add this line
+    },
+    {
+      number: 3,
+      coverImage: "/n/n3.webp",
+      pdfLink: "https://www.mediafire.com/file/miz500j3fc2knao/Nidome_no_Yuusha_-_Volumen_03_%255BMK_%2526_LnF%255D.pdf/file",
+      epubLink: "https://www.mediafire.com/file/o802jcpg9xj5fka/Nidome_no_Yuusha_-_Volumen_03_%255BMK_%2526_LnF%255D.epub/file",
+      available: true,
+      status: "available", // Add this line
+    },
+    {
+      number: 4,
+      coverImage: "/n/n4.webp",
+      pdfLink: "https://www.mediafire.com/file/trhcn00upgysk3s/%255BMK_%2526_LnF%255D_Nidome_no_Yuusha_-_Volumen_4.pdf/file",
+      epubLink: "https://www.mediafire.com/file/4vyzscmybg3572f/%255BMK_%2526_LnF%255D_Nidome_no_Yuusha_-_Volumen_4.epub/file",
+      available: true,
+      status: "available", // Add this line
+    },
+    {
+      number: 5,
+      coverImage: "/n/n5.webp",
+      pdfLink: "#",
+      epubLink: "#",
       available: true,
       status: "available", // Add this line
     },

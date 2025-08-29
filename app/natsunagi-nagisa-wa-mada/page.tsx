@@ -11,22 +11,24 @@ import { Navbar } from "@/components/navbar"
 
 // DATOS DE LA NOVELA - Solo cambia esto para crear una nueva página
 const novelData = {
-  title: "Binzume Jigoku Otome no Hondana, Hell in a Bottle",
-  coverImage: "/binzume.webp",
-  isCompleted: true,
-  synopsis: `Dos jóvenes hermanos abandonados a su suerte en una isla desierta, a la espera de un rescate que quizá nunca llegue. Encuentran la alegría en las maravillas de su Edén personal, hasta que “el demonio” sacude su fe y los lleva por el camino de la tentación…
-
-  Relatada a través de una serie de cartas selladas en botellas y arrojadas al mar, el clásico de Kyusaku Yumeno es tan lastimero e inmediato hoy como cuando se publicó por primera vez en 1928.`,
+  title: "Natsunagi Nagisa wa Mada, Joshi Kousei de Itai. Tantei wa Mou, Shindeiru. Ordinary Case",
+  coverImage: "/natsunagi.webp",
+  isCompleted: false,
+  synopsis: `Quería ser una chica normal de instituto. Porque esta “vida” deseaba ser una chica de instituto. Soy Nagisa. Nagisa Natsunagi. Seguramente solo soy una chica de instituto que aún no se ha convertido en nada. Lo único que me hace un poco diferente es que soy enfermiza y hasta hace poco no podía ir a la escuela. 
+  
+  Pero, milagrosamente, apareció una donante compatible y fui operada con éxito. Gracias a mis dos mejores amigas, conseguí llevar la vida normal de instituto que siempre había deseado, aunque tuve que volver al colegio a una hora extraña. Sí, solo una chica de instituto. Pero tengo curiosidad por saber quién es el dueño de este corazón… 
+  
+  Para encontrar al chico que resuelve cualquier caso que se rumoree en este pueblo, ella y sus mejores amigas investigan el caso más raro del que se habla en el instituto y descubren quién es el que puede resolver cualquier caso.`,
 
   details: {
-    alternativeTitles: ["La estantería de las damas. - El infierno en una botella"],
-    author: "Kyusaku Yumeno",
-    illustrator: "Towoji Honojiro",
-    yearPublished: "no data",
-    publisher: "no data",
+    alternativeTitles: ["夏凪渚はまだ、女子高生でいたい。１ 探偵はもう、死んでいる。Ordinary Case"],
+    author: " Shuusui Tsukimi",
+    illustrator: "Hanekoto",
+    yearPublished: "2023",
+    publisher: "MF Bunko",
     totalVolumes: 1,
     translatedVolumes: 1,
-    genres: ["Tragedia"],
+    genres: ["Comedia", "Vida escolar", "Misterio", "Drama"],
   },
 
   showAdWarning: false,
@@ -39,9 +41,9 @@ const novelData = {
   volumes: [
     {
       number: 1,
-      coverImage: "/binzume.webp",
-      pdfLink: "https://www.mediafire.com/file/tkh2nqffm5sackv/%255BSv%255D_LED_-_Volumen_1_-_El_infierno_en_una_botella.pdf/file",
-      epubLink: "https://www.mediafire.com/file/hl2vthslikxp31p/%255BSv%255D_LED_-_Volumen_1_-_El_infierno_en_una_botella.epub/file",
+      coverImage: "/natsunagi.webp",
+      pdfLink: "https://www.mediafire.com/file/z3b7846qov7x3qu/Natsunagi_Nagisa_wa_Mada%252C_Joshi_Kousei_de_Itai._Tantei_wa_Mou%252C_Shindeiru._Ordinary_Case_-_Volumen_01.pdf/file",
+      epubLink: "#",
       available: true,
       status: "available", // Add this line
     },

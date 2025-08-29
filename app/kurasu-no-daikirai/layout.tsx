@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: "Kurasu no Daikirai na Joshi to Kekkon Suru Koto ni Natta - Descargar Novela Ligera en PDF y EPUB",
     description:
       "Descargar Kurasu no Daikirai na Joshi to Kekkon Suru Koto ni Natta light novel en PDF y EPUB formato.",
-    url: "https://gashaworld.club/kurasu-no-daikirai",
+    url: "https://legnnovels.com/kurasu-no-daikirai",
     siteName: "LegendsNoFansub",
     images: [
       {
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     images: ["/og-kurasu.webp"],
   },
   alternates: {
-    canonical: "https://gashaworld.club/kurasu-no-daikirai",
+    canonical: "https://legnnovels.com/kurasu-no-daikirai",
   },
 }
 

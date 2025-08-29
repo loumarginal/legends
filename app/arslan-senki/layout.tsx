@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     title: "Arslan Senki - Descargar Novela Ligera en PDF y EPUB",
     description:
       "Descargar Arslan Senki light novel en PDF y EPUB formato.",
-    url: "https://gashaworld.club/arslan-senki",
+    url: "https://legnnovels.com/arslan-senki",
     siteName: "LegendsNoFansub",
     images: [
       {
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     images: ["/og-arslan.webp"],
   },
   alternates: {
-    canonical: "https://gashaworld.club/arslan-senki",
+    canonical: "https://legnnovels.com/arslan-senki",
   },
 }
 

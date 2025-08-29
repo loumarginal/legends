@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: "Fushisha no Deshi: Jashin no Fukyou wo Katte Naraku ni Otosareta Ore no Eiyuutan - Descargar Light Novel PDF & EPUB",
     description:
       "Descargar Fushisha no Deshi: Jashin no Fukyou wo Katte Naraku ni Otosareta Ore no Eiyuutan light novel en PDF y EPUB formats.",
-    url: "https://gashaworld.club/fushisha-no-deshi",
+    url: "https://legnnovels.com/fushisha-no-deshi",
     siteName: "LegendsNoFansub",
     images: [
       {
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     images: ["/og-gal.webp"],
   },
   alternates: {
-    canonical: "https://gashaworld.club/fushisha-no-deshi",
+    canonical: "https://legnnovels.com/fushisha-no-deshi",
   },
 }
 
