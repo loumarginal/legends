@@ -15,7 +15,7 @@ interface Novel {
   description: string
   coverImage: string
   genres: string[]
-  status: "not-started" | "in-progress" | "completed"
+  status: "not-started" | "in-progress" | "completed" | "on-hold" | "cancelled"
   isClickable?: boolean
   link?: string
 }
@@ -45,7 +45,7 @@ const novels: Novel[] = [
     description: "Después de una pérdida inesperada y devastadora en la Batalla de Atropátene, el Príncipe Heredero de Pars debe recuperar nuevas fuerzas y hacer nuevos aliados para recuperar su reino perdido. Arslan, de 14 años...",
     coverImage: "/arslan1.webp",
     genres: ["Acción", "Aventura", "Drama", "Fantasía"],
-    status: "in-progress",
+    status: "completed",
     isClickable: true,
     link: "/arslan-senki",
   },
@@ -85,7 +85,7 @@ const novels: Novel[] = [
     description: "En el transcurso de un viaje de rutina, el inspector del gobierno Yuan Can se encuentra con su viejo amigo Li Zheng, pero no como lo recuerda. Transformado por su obsesión en una bestia espantosa, Li Zheng cuenta su historia trágica y finalmente le presenta a su confidente una petición singular.",
     coverImage: "/sangetsuki.webp",
     genres: ["Fantasía", "Tragedia"],
-    status: "in-progress",
+    status: "completed",
     isClickable: true,
     link: "/sangetsuki",
   },
@@ -95,7 +95,7 @@ const novels: Novel[] = [
     description: "Un misterioso encuentro en la sala de cirugía nos lleva por los caminos de los recuerdos después de que una dama rechaza la anestesia para proteger su secreto…",
     coverImage: "/gekashitsu.webp",
     genres: ["Fantasía", "Tragedia"],
-    status: "in-progress",
+    status: "completed",
     isClickable: true,
     link: "/gekashitsu",
   },
@@ -105,7 +105,7 @@ const novels: Novel[] = [
     description: "Suwa y su padre viven solos en las laderas de la Montaña del caballo y se ganan la vida a duras penas. Durante los meses más cálidos, la hermosa cascada atrae a algunos turistas, pero cuando llega el invierno sólo hay soledad.",
     coverImage: "/gyofukuki.webp",
     genres: ["Fantasía", "Tragedia"],
-    status: "in-progress",
+    status: "completed",
     isClickable: true,
     link: "/gyofukuki",
   },
@@ -115,7 +115,7 @@ const novels: Novel[] = [
     description: "Confinada en un lecho de enfermedad junto al mar, una mujer espera la muerte mientras su marido la cuida. Sin embargo, este no es un idilio trágico; el espacio entre ellos está lleno de antagonismo, miedo, sospecha, dolor….",
     coverImage: "/haru.webp",
     genres: ["Fantasía", "Tragedia"],
-    status: "in-progress",
+    status: "completed",
     isClickable: true,
     link: "/haru-wa-basha-ni-notte",
   },
@@ -456,7 +456,7 @@ function getStatusBadge(status: Novel["status"]) {
         </Badge>
       )
     case "not-started":
-      return <Badge variant="secondary">En planes de traducción</Badge>
+      return <Badge variant="secondary">Hiatus</Badge>
     default:
       return null
   }
