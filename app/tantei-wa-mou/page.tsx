@@ -243,7 +243,7 @@ export default function NetorarePage() {
           <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700 text-white">
             <Link href={novelData.supportLinks.paypal} target="_blank" rel="noopener noreferrer">
               <Heart className="mr-2 h-4 w-4" />
-              {novelData.isCompleted ? "Si te gustó la novela, invitanos un café" : "Dona una sola vez via PayPal"}
+              {novelData.isCompleted ? "Si te gustó la novela, invitanos un café" : "Dona una sola vez via Ko-Fi"}
               <ExternalLink className="ml-2 h-4 w-4" />
             </Link>
           </Button>

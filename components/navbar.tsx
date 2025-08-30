@@ -7,8 +7,7 @@ import Link from "next/link"
 const navigationItems = [
   { name: "Home🍜", href: "/" },
   { name: "Comisiona una novela🍱", href: "/comisiones" },
-  { name: "Únete al Club🌐", href: "https://www.patreon.com/Gashadokai/membership" },
-  { name: "Wall of Love💟", href: "/wall-of-love" },
+  { name: "Únete al Patreon🎉", href: "https://www.patreon.com/LegendsNoFansub" },
 ]
 
 export function Navbar() {
@@ -43,7 +42,7 @@ export function Navbar() {
             {/* Social Media Buttons */}
             <div className="flex items-center space-x-4 ml-4 pl-4 border-l border-border">
               <Link
-                href="https://www.facebook.com/gashawrld/"
+                href="https://www.facebook.com/LegendsNoFansub"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="transition-opacity hover:opacity-80"
@@ -51,20 +50,6 @@ export function Navbar() {
                 <Image
                   src="https://img.icons8.com/ios-filled/50/FFFFFF/facebook--v1.png"
                   alt="Facebook"
-                  width={24}
-                  height={24}
-                  className="rounded"
-                />
-              </Link>
-              <Link
-                href="https://x.com/gashadokai"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="transition-opacity hover:opacity-80"
-              >
-                <Image
-                  src="https://img.icons8.com/ios-filled/50/FFFFFF/twitterx--v1.png"
-                  alt="X"
                   width={24}
                   height={24}
                   className="rounded"
@@ -97,7 +82,7 @@ export function Navbar() {
                 {/* Mobile Social Media Buttons */}
                 <div className="flex items-center space-x-4 pt-4 mt-4 border-t border-border">
                   <Link
-                    href="https://facebook.com/gashawrld/"
+                    href="https://www.facebook.com/LegendsNoFansub"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="transition-opacity hover:opacity-80"
@@ -105,20 +90,6 @@ export function Navbar() {
                     <Image
                       src="https://img.icons8.com/ios-filled/50/FFFFFF/facebook--v1.png"
                       alt="Facebook"
-                      width={32}
-                      height={32}
-                      className="rounded"
-                    />
-                  </Link>
-                  <Link
-                    href="https://x.com/gashadokai"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="transition-opacity hover:opacity-80"
-                  >
-                    <Image
-                      src="https://img.icons8.com/ios-filled/50/FFFFFF/twitterx--v1.png"
-                      alt="X"
                       width={32}
                       height={32}
                       className="rounded"

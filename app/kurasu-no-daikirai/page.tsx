@@ -47,7 +47,7 @@ const novelData = {
     },
     {
       number: 2,
-      coverImage: "/arslan2.webp",
+      coverImage: "/class/class2.webp",
       pdfLink: "https://www.mediafire.com/file/htsb59zhrmb8r8k/%255BLnF_%2526_ShinomiyaT%255D_Kurasu_no_Daikiraina_-_Volumen_02.pdf/file",
       epubLink: "#",
       available: true,
@@ -72,7 +72,7 @@ const novelData = {
     },
     {
       number: 5,
-      coverImage: "/arslan5.webp",
+      coverImage: "/class/class5.webp",
       pdfLink: "https://www.mediafire.com/file/j0rx0xd9e3e2ysn/Kurasu_no_Daikiraina_Joshi_to_Kekkon_Suru_Koto_ni_Natta_Volumen_05_-_LNF_X_UNL_X_AKTL.pdf/file",
       epubLink: "#",
       available: true,
@@ -80,7 +80,7 @@ const novelData = {
     },
     {
       number: 6,
-      coverImage: "/arslan6.webp",
+      coverImage: "/class/class6.webp",
       pdfLink: "https://www.mediafire.com/file/es9mt9w3a276djc/Kurasu_no_Daikiraina_Joshi_to_Kekkon_Suru_Koto_ni_Natta_Volumen_06_-_LNF_X_UNL.pdf/file",
       epubLink: "#",
       available: true,
@@ -88,7 +88,7 @@ const novelData = {
     },
     {
       number: 7,
-      coverImage: "/arslan7.webp",
+      coverImage: "/class/class7.webp",
       pdfLink: "https://www.mediafire.com/file/jpf2cp08pbbr85m/Kurasu_no_Daikiraina_Joshi_to_Kekkon_Suru_Koto_ni_Natta_Volumen_07_-_LNF_X_UNL.pdf/file",
       epubLink: "#",
       available: true,
