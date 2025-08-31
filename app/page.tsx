@@ -30,12 +30,12 @@ interface LatestVolume {
 
 // Sample data - easily modifiable
 const latestVolume: LatestVolume = {
-  title: "Netorare yuusha o TS shoujo ga sukū hanashi. Hiroin ni isekai tensei shite anata to shiawase ni narimashita",
+  title: "Kurasu no Daikirai na Joshi to Kekkon Suru Koto ni Natta",
   description:
-    "Invadido por el temor de ser traicionado nuevamente, Trust rapta a Filia y la encierra en una mansión con el objetivo de apoderarse de su cuerpo, su mente, y sus sentimientos. Obligandola a que ella lo ame a toda costa... ¡Explora la ruta alternativa donde el Héroe rapta al Héroina!",
-  volumeNumber: 3,
-  coverImage: "/netorare-ex.webp",
-  downloadUrl: "https://gashaworld.club/netorare-yuusha-o-ts",
+    "El estudiante de instituto Hojo Saito está a punto de heredar la gran empresa de su abuelo. Para ello debe casarse con Akane Sakuramori, la chica a la que más detesta y que a su vez le detesta a él.Los dos están decididos a ocultar su imprevisto matrimonio a sus compañeros de clase, pero al comenzar su nueva vida como pareja, la distancia que los separa comienza a reducirse.",
+  volumeNumber: 10,
+  coverImage: "/kurasu.webp",
+  downloadUrl: "/kurasu-no-daikirai",
 }
 
 const novels: Novel[] = [
