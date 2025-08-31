@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     siteName: "Legends no Fansub",
     images: [
       {
-        url: "/og-home.webp", // Replace with your actual OG image
+        url: "/og.png", // Replace with your actual OG image
         width: 1200,
         height: 630,
         alt: "Legends no Fansub - Traducción de Novelas Ligeras",
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     title: "Legends no Fansub - Traducción de Novelas Ligeras",
     description: "Descarga novelas ligeras traducidas por Legends no Fansub en formatos PDF y EPUB.",
     creator: "@legendsnofansub", // Replace with your Twitter handle
-    images: ["/og-home.webp"], // Replace with your actual image
+    images: ["/og.png"], // Replace with your actual image
   },
   robots: {
     index: true,

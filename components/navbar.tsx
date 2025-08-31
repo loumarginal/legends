@@ -18,8 +18,8 @@ export function Navbar() {
           {/* Logo and Brand */}
           <Link href="/" className="flex items-center space-x-3">
             <Image
-              src="/logo.webp"
-              alt="Gashadokai Logo"
+              src="/logo.png"
+              alt="Legends Logo"
               width={40}
               height={40}
               className="rounded-full"

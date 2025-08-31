@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "Legends no Fansub",
     images: [
       {
-        url: "/og-comisiones.webp",
+        url: "/og.png",
         width: 1200,
         height: 630,
         alt: "Legends no Fansub - Servicios de Traducción por Encargo",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Servicios de Traducción Profesional - Comisiones de Novelas Ligeras",
     description: "Servicios de traducción profesional del japonés al español para novelas ligeras y manga.",
-    images: ["/og-comisiones.webp"],
+    images: ["/og.png"],
   },
   alternates: {
     canonical: "https://legnnovels.com/comisiones",
