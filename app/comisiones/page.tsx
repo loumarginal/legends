@@ -9,48 +9,35 @@ import { Navbar } from "@/components/navbar"
 
 // DATOS EDITABLES - Cambia estos enlaces según necesites
 const commissionsData = {
-  contactLink: "https://www.facebook.com/gashawrld", // Cambia por tu enlace de contacto
+  contactLink: "https://www.facebook.com/LegendsNoFansub", // Cambia por tu enlace de contacto
 
   // Planes de precios
   pricingPlans: [
     {
       name: "Traducción Basica",
-      price: "$30",
-      description: "Perfecto para quienes desean leer la historia",
+      price: "$20",
+      description: "Traducción de Ingles a Español",
       features: [
-        "Entrega en archivos DOCX",
-        "Edición basica",
-        "Tiempo de traducción: 7 días",
+        "Entrega en archivos PDF",
+        "Entrega en archivos EPUB",
+        "1 ronda de revisión",
         "Soporte via Facebook",
       ],
       popular: false,
     },
     {
       name: "eBook Profesional",
-      price: "$60",
-      description: "Copía 1 a 1 de la version original",
+      price: "$50",
+      description: "Traducción de Japones a Español",
       features: [
-        "Entrega en varios formatos (PDF, EPUB, DOCX)",
-        "Copía original del EPUB Japones",
-        "Copía de todas las ilustraciones en JPEG",
-        "Tiempo de traducción: 10 días",
-        "Soporte via Discord/Facebook/WhatsApp",
-        "1 ronda de revision en caso de errores",
+        "Entrega en archivos PDF",
+        "Entrega en archivos EPUB",
+        "Entrega en archivos .DOCX",
+        "Copía del archivo EPUB original",
+        "1 ronda de revisión",
+        "Soporte via Facebook",
       ],
       popular: true,
-    },
-    {
-      name: "Trilogía",
-      price: "$100",
-      description: "¿Por qué elegir 1 volumen cuando puedes elegir 3?",
-      features: [
-        "Todos los beneficios del eBook Profesional",
-        "Elige 3 volumenes",
-        "Prioridad en Entrega",
-        "Tiempo de traducción: 25 días",
-        "Soporte vía WhatsApp",
-      ],
-      popular: false,
     },
   ],
 
@@ -104,12 +91,12 @@ export default function CommissionsPage() {
               Comisiona tu novela ligera
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-              Elija el paquete de traducción perfecto para su novela. Desde traducciones básicas hasta adaptaciones de trilogías, tenemos opciones para todas las necesidades y presupuestos.
+              Elija el paquete de traducción perfecto para su novela. Desde adaptaciones basica del Ingles al Español, o desde el Japones a Español.
             </p>
           </div>
 
           {/* Pricing Plans Grid */}
-          <div className="grid gap-8 md:grid-cols-3 mb-16">
+          <div className="grid gap-8 md:grid-cols-2 mb-16">
             {commissionsData.pricingPlans.map((plan, index) => (
               <Card
                 key={index}
@@ -119,7 +106,7 @@ export default function CommissionsPage() {
               >
                 {plan.popular && (
                   <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-                    <Badge className="bg-primary text-primary-foreground px-4 py-1">Most Popular</Badge>
+                    <Badge className="bg-primary text-primary-foreground px-4 py-1">Más Popular</Badge>
                   </div>
                 )}
                 <CardHeader className="text-center pb-4">
